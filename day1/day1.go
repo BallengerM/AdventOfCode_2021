@@ -22,7 +22,7 @@ func Run() {
 }
 
 func readInput() ([]int, error) {
-	file, err := os.Open("day1/input_day1.txt")
+	file, err := os.Open("inputs/input_day1.txt")
 	if err != nil {
 		return nil, err
 	}

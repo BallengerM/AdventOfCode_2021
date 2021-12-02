@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"git.bisonline.com/makayla.ballenger/advent/day1"
+	"git.bisonline.com/makayla.ballenger/advent/day2"
 )
 
 func main() {
@@ -22,6 +23,8 @@ func main() {
 	switch {
 	case text == "1" || text == "One":
 		day1.Run()
+	case text == "2" || text == "Two":
+		day2.Run()
 	default:
 		fmt.Println("The requested day is invalid.")
 	}
