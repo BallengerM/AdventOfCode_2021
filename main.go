@@ -10,6 +10,7 @@ import (
 	"git.bisonline.com/makayla.ballenger/advent/day1"
 	"git.bisonline.com/makayla.ballenger/advent/day2"
 	"git.bisonline.com/makayla.ballenger/advent/day3"
+	"git.bisonline.com/makayla.ballenger/advent/day5"
 )
 
 func main() {
@@ -28,6 +29,10 @@ func main() {
 		day2.Run()
 	case text == "3" || text == "Three":
 		day3.Run()
+	case text == "4" || text == "Four":
+		fmt.Println("Day 4 has not been completed.")
+	case text == "5" || text == "Five":
+		day5.Run()
 	default:
 		fmt.Println("The requested day is invalid.")
 	}
